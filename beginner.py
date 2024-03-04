@@ -101,12 +101,6 @@ drink_potion()
 print(player_health)
 
 
-
-
-
-
-
-
 #PYTHON VARIABLES
 
 name = 7890
@@ -539,3 +533,432 @@ def calc():
 # analyze the code, reproduce the bug, evaluate each line, fixing red underline errors,
 # use a debugger, try the thonny IDE for writing python code. a good debugger is: pythontutor.com
 # ask stackoverflow
+
+### beginner2
+
+
+na = 'abc'
+print(na)
+
+# i am learning python
+# python am i learning
+
+# int
+# float
+# string
+# bool
+
+55.67777
+
+10 ** 2
+
+10 // 2
+
+10 % 3
+
+(10 + 2) * 5
+
+# import math
+# math.
+
+'i am learning python'[0:7:2]
+
+for cat in range(4000, 4200, 50):
+    print(cat)
+    print('---------')
+
+for key, value in {'name': 'david',
+                   'learning': 'python'}.items():
+    print(key, value)
+
+while 2 > 4 and 5 < 9 or 4 == 9 and 4 > 90:
+    print('abc')
+
+while len('khaled') < int(input('Enter a Number: ')):
+    print('abc')
+
+string = 'Muhammad'
+id(string)
+
+# Memory Allocation in Bytes/ Memory consumption
+
+a = 9000000000
+
+import sys
+
+sys.getsizeof(a)
+
+s = 'Car'
+s[::-1][::-1]
+
+name = 'Muhammad khaled'
+name[::1]
+
+s = 'Car'
+
+print(s == s[::-1][::-1])
+print(s is s[::-1][::-1])
+
+'k' not in 'ok'
+
+# String Functions
+
+s = 'We are learning python aaaa python'
+# s.upper()
+s.title()
+s.capitalize()
+s.split('a')
+s.partition('a')
+s.zfill(50)
+s.center(50, '-')
+s.replace('python', 'java')
+s.count('a', 9)
+s.endswith(' aa')
+s.startswith('W')
+s.index('python')
+
+len(s)
+
+s = 'Myageis30'
+s.isdigit()
+s.isalnum()
+
+# BUILT-IN FUNCTIONS / UNIVERSAL Functions
+
+# print
+# range
+# str
+# tuple
+# set
+# dict
+# list
+# max
+
+'abc' * 70
+
+strOne = str("pynative")
+strTwo = "pynative"
+print(strOne == strTwo)
+print(strOne is strTwo)
+
+s = 'My name is Hamza'
+s.replace('Hamza', 'Muhammad')
+s
+
+name = 'Muhammad'
+age = 30
+
+print('My name is ' + name + ' age is ' + str(age))
+print(f'My name is {name:-^40} age is {age}')
+print('My name is {0:-^40} age is {1}'.format(name, age))
+print('My name is', name, 'age is', age)
+
+# f-string or formatted string
+name = 'Allah'
+f'{name:-^30}'
+
+num = 128971239.190827380912738901
+f'{num:_.3f}'
+
+# excape sequence example
+print(f'My name\\t is Pasquale \\nI am learning python')
+
+# r-string or raw string
+print(r'My name is John \nI am learning python')
+
+# string literals
+# \n and \t are string literals
+# \n NEWLINE
+# \t TAB SPACE
+# \ is an escape sequence
+
+'abcdefghi'[::-3]
+
+'foobar'[::-1][-1]
+
+'foobar'[::5]
+
+# https://realpython.com/quizzes/python-strings/viewer/
+
+# strings
+# list, tuple and set
+# conditionals
+# loops
+# functions
+
+# LC lambda map zip NLC Dictionaries
+
+# OOP FH DB
+
+'abcda'.count('a', 2)
+
+"""------------------TOPIC **LIST** STARTS HERE----------------------"""
+
+# string
+# dictionary
+# list
+
+listA = [1, 2, 3, 4, 5]
+listB = ['apple', 'mango', 'orange']
+listC = [22, 45, 67, 'abc', 'xyz', True, 78.9999]
+listD = [True, False, True, True]
+listE = [33, 67, 44, [1, [2, 3]], 'apple', ['🍎🍏', '🥭']]
+
+listB = ['apple', 'mango', 'orange']
+listB[1][1: 5]
+
+listE = [33, 67, 44, [1, [2, 3]], 'apple', [['🍎🍏', [56, '90']], '🥭']]
+listE[5][0][1][1][0]
+
+listE = [33, 67, '44', 3, [1, [2, 3]], 5, ['apple', [3, 'print me']], 'abc', 8]
+
+listB = ['apple', 'mango', 'orange']
+# listB.extend([4000])
+# listB.pop(0)
+# del listB[1]
+# del listB
+# listB.clear()
+# listB.reverse()
+# listB.insert(1,987678987)
+listB[1:1] = ['908', 44, 55, 66]
+listB
+
+# Datastructures and Algorithms
+
+# Amazon --> 5 Billion.  0.001s
+
+# 1,2,3,4,5,6,7,9,10,11,12,13,14
+
+listE = [33, 67, '44', 3, [1, [2, 3]], 5, ['apple', [3, 'print me']], 'abc', 8]
+listE[4][1].append(4)
+listE
+
+# copy
+# list
+a = [1, 2, 3]
+b = list(a)
+
+a.append(10)
+b
+
+# tuple
+
+tupleA = 3, 4, [5, 6, 67], 7, 9, 0
+tupleA[2].append(9000)
+tupleA
+
+a, b, c, d = (5, 78, 9, 3)
+
+b
+
+type((1,))
+
+'apple'
+
+1, 2, 3, 4
+
+[1, 2] * 8
+
+'a' * 40
+
+a
+
+name = 'Khaled'
+nam
+
+print('Khaled'
+
+10 / 0
+
+a = 10
+a + '9'
+
+try:
+    10 / 0
+except Exception as e:
+    print(e)
+
+a = 'abc'
+a[:] is a
+
+print(id(a[:]))
+print(id(a))
+
+l = [1, 2, 3, 4, 5]
+l[2:2] = [100, 200]
+l
+
+a = ['a', 'b', 'c']
+
+a.extend(['d', 'e'])
+a
+
+# conditionals
+
+if 2 > 10:
+    print('Muhammad')
+elif 'abc' == 'abc':
+    print('Muhammad KhAlEd')
+elif 'abc' == 'abc':
+    print('Muhammad Khaled')
+else:
+    print('abc')
+
+# Assignment Operators
+# =
+# +=
+# -=
+# *=
+# /=
+
+# comparison
+# ==
+# !=
+# >
+# <
+# >=
+# <=
+
+# Logical Operators
+# and
+# or
+# not
+
+3 <= 3
+
+4 == 4
+
+3 != 3
+
+30 >= 2 or 5 > 30
+
+not 3 == 3
+
+# Nested if else
+
+if 300 > 20:
+    if 4 < 5:
+        if 3 == 3:
+            if 5 != 90:
+                print('k')
+            else:
+                print('k')
+
+        else:
+            print('k')
+    else:
+        print('k')
+
+a = 10
+b = 20
+c = 30
+
+if a == 10:
+    if b == 20:
+        pass
+
+if 2 > 1 and 5 < 10 or 5 == 5:
+    pass
+
+2 > 1 and 5 < 10 or 5 == 5
+
+number = 3 if 4 == 4 else 30
+
+number
+
+# Loop - for loop and while loop
+
+for cat in range(5, 10, 2):
+    print(cat)
+
+for cat in 'abc':
+    print(cat)
+
+for cat in [22, 33, 44, 55, 66]:
+    print(cat)
+
+for cat in '45':
+    print(cat)
+
+for x in range(3):
+    print('outer loop')
+    for y in range(5):
+        print('---------inner loop')
+
+a = 4
+b = 0
+while a < 10 and b < 2:
+    print('cool')
+    a += 1
+    b += 1
+
+# break continue pass
+for i in range(10):
+    if i == 6:
+        continue
+    print(i)
+
+for i in range(10):
+    pass
+
+
+def sum(a, b=80):
+    c = a + b
+    return c
+
+
+sum(b=7, a=100)
+
+sum(30, 8)
+
+sum(55, 89)
+
+print('Muhammad')
+
+
+# Function
+# 1 Built in
+# print
+# range
+# len
+# list
+# tuple
+# set
+# max
+# str
+# int
+
+# 2 User Defined
+# def
+# lambda (In-line Function)
+
+# (lambda a,b : a+b) (2,3)
+
+# positional and keyword
+
+def sum(*args, **kwargs):
+    print(args)
+    print(kwargs)
+
+
+sum(4, 5, 6, 7, 78, 8, 89, 9, 0, 0, 0, 4, 4, 3, 3, 4, 5, 67, 7, a=90, b=80, c=8)
+
+
+def a():
+    print('i am called from outside')
+
+    def b():
+        print('i am called from a')
+
+    b()
+
+
+a()
+
+
+def a():
+    print('i am called from outside')
+    return 'abc', 12, 23, 14
+
+
+print(a())
